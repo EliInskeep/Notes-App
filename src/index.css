@@ -24,6 +24,31 @@ code {
   gap: 1rem;
 }
 
+.note.new {
+  background-color: #52d6ff;
+}
+
+textarea {
+  background: none;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.save {
+  background-color: #ededed;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+
+  transition: 0.3s ease;
+}
+
+.save:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
 .note {
   display: flex;
   flex-direction: column;
