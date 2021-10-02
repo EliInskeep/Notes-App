@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
@@ -57,10 +58,16 @@ textarea {
   border-radius: 10px;
   padding: 1rem;
   min-height: 175px;
+  white-space: pre-wrap;
 }
 
 .note-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.delete-icon:hover {
+  cursor: pointer;
+  transform: scale(1.08);
 }
