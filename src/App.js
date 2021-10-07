@@ -7,18 +7,23 @@ import Header from './Components/Header';
 const App = () => {
   const [notes, setNotes] = useState([{
       id: nanoid(),
-      text: "This is my first note!",
-      date: "09/26/2021"
-    },
-    {
-      id: nanoid(),
-      text: "This is my second note!",
+      text: "Welcome to my notes app!",
       date: "09/23/2021"
     },
     {
       id: nanoid(),
-      text: "This is my third note!",
-      date: "09/22/2021"
+      text: "Feel free to add/remove as many notes as you'd like.",
+      date: "09/26/2021"
+    },
+    {
+      id: nanoid(),
+      text: "Can't find the note you're looking for? Use the search bar to locate the note you're looking for.",
+      date: "09/28/2021"
+    },
+    {
+      id: nanoid(),
+      text: "Don't forget to try out the dark mode by clicking the Toggle Mode button.",
+      date: "09/28/2021"
     },
   ]);
 
