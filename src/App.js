@@ -23,7 +23,7 @@ const App = () => {
     {
       id: nanoid(),
       text: "Don't forget to try out the dark mode by clicking the Toggle Mode button.",
-      date: "09/28/2021"
+      date: "10/01/2021"
     },
   ]);
 
